@@ -18,6 +18,9 @@
         <activity android:name=".NewsContentActivity">
 
     </activity>
+        <activity android:name=".ExchangeRateActivity">
+
+        </activity>
         <activity android:name=".LauncherActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

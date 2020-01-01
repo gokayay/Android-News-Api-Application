@@ -29,7 +29,6 @@ public class GetNews extends AsyncTask<String, Void, String> {
 
 
 
-
     private RequestQueue mQueue;
     private Context context;
     public RecyclerView recyclerview;

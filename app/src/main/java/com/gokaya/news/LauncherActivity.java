@@ -16,6 +16,8 @@ public class LauncherActivity extends AppCompatActivity {
 
         ImageView img =findViewById(R.id.imageView);
 
+        ImageView imgExchange =findViewById(R.id.imageView2);
+
         img.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -23,6 +25,16 @@ public class LauncherActivity extends AppCompatActivity {
 
                 Intent i = new Intent(LauncherActivity.this, MainActivity.class);
                 startActivity(i);
+            }
+        });
+
+        imgExchange.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                Intent ix = new Intent(LauncherActivity.this, ExchangeRateActivity.class);
+                startActivity(ix);
             }
         });
     }
